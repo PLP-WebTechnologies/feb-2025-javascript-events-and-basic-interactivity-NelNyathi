@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowered Women Conference 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="home">
+        <h1>Welcome to Empowered Women Conference 2025</h1>
+        <button id="introButton">Click for Event Details</button>
+        <p id="introText">Join us as we celebrate women leaders, changemakers, and trailblazers!</p>
+    </section>
+
+    <section id="event-details">
+        <h2>Event Details</h2>
+        <div class="tabs">
+            <button class="tab" data-target="agenda">Agenda</button>
+            <button class="tab" data-target="location">Location</button>
+            <button class="tab" data-target="speakers">Speakers</button>
+        </div>
+        <div id="agenda" class="tab-content">The event will feature inspiring talks on leadership, equality, and breaking barriers!</div>
+        <div id="location" class="tab-content">Held at the Women’s Empowerment Center, 567 Women’s Way, San Francisco.</div>
+        <div id="speakers" class="tab-content">Our speakers include top female CEOs, activists, and thought leaders!</div>
+    </section>
+
+    <section id="countdown">
+        <h2>Countdown to the Event</h2>
+        <div id="timer"></div>
+    </section>
+
+    <section id="speakers">
+        <h2>Meet Our Empowering Speakers</h2>
+        <div>
+            <img id="speakerImage" src="Women_in_Tech.webp" alt="Speaker Image">
+            <button id="nextSpeaker">Next Speaker</button>
+        </div>
+    </section>
+
+    <section id="register">
+        <h2>Register for the Event</h2>
+        <form id="registrationForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <input type="password" id="password" placeholder="Create a password" required>
+            <button type="submit">Register</button>
+            <div id="emailFeedback"></div>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
